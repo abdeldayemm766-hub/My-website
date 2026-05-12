@@ -299,6 +299,9 @@ section{
   flex-direction: column;
   gap: 20px;
 }
+#contact .container .info h4{
+    color: white;
+}
 #contact .container .content .a-content {
   display: inline-flex;
   gap: 10px;
