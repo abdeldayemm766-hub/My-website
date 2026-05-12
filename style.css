@@ -384,3 +384,65 @@ form button i {
   font-size: 16px;
   transition: all 0.3s ease-in-out;
 }
+
+
+#projects .content {
+  margin: 50px 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+#projects .content .column {
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid color-mix(in srgb, var(--primary-color), transparent 80%);
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+}
+#projects .content .column .image {
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+#projects .content .column img {
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+#projects .content-text {
+  padding: 20px;
+}
+#projects .content-text .lang {
+  display: inline-flex;
+  gap: 10px;
+}
+#projects .content-text .lang span {
+  padding: 0 5px;
+  border-radius: 50px;
+  background-color: color-mix(in srgb, var(--gray-color), transparent 80%);
+  color: color-mix(in srgb, var(--gray-color), transparent 20%);
+  transition: all 0.3s ease-in-out;
+}
+#projects .content-text h3 {
+  margin: 20px 0;
+}
+#projects .content-text p {
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--gray-color), transparent 80%);
+  padding: 0 0 20px;
+  margin: 0px 0 20px;
+}
+#projects .content-text .link {
+  margin: 30px 0;
+}
+#projects .content-text a {
+  background-color: color-mix(in srgb, var(--primary-color), transparent 80%);
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.3s linear;
+}
+#projects .content-text a:hover {
+  background-color: var(--primary-color);
+  color: var(--black-color);
+}
